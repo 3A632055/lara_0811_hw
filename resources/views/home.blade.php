@@ -92,6 +92,9 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <input type="button" value="關於本站" onclick="self.location.href='{{route('about.index')}}'"/>
+                    <a></a>
+                    <input type="button" value="最新消息" onclick="self.location.href='{{route('news.index')}}'"/>
                 </div>
             </div>
         </div>
